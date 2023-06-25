@@ -1,0 +1,29 @@
+.spacer {
+  flex: 1 auto;
+  justify-content: center;
+  align-items: center;
+}
+.toolbar {
+  background-color: white;
+  padding: 0 2rem;
+}
+.account{
+  background-color: #E6F3F4;
+  width: 40px;
+  height: 40px;
+  padding: 8px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+}
+.menu{
+ background-color: #E6F3F4;
+ width: 40px;
+ height: 40px;
+ padding: 10px;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ border-radius: 50%;
+}

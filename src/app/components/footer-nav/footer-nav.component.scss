@@ -1,0 +1,51 @@
+footer {
+ margin: 0px;
+ padding: 0px;
+  width: 100%;
+  height: 10vh;
+ }
+  
+.navigation {
+display: flex;
+align-items: center;
+justify-content: center;
+height: 100%;
+}
+  
+.nav-box {
+display: flex;
+flex-direction: column;
+align-items: center;
+cursor: pointer;
+background-color:white;
+transition: background-color 0.3s;
+flex-grow: 1;
+color: black;
+font-size: 16px;
+height: 100%;
+justify-content: center;
+}
+  
+  .nav-box:hover {
+    background-color: lightblue;
+  }
+  
+  .nav-box.active {
+    background-color: lightblue;
+    color: #1F838E;
+  }
+  img {
+    border-radius: 50%;
+    border: 2px solid lightblue; 
+    padding: 5px; 
+    box-sizing: border-box; 
+    background-color: lightblue;
+    transition: background-color 0.3s;
+  }
+  
+img.selected{
+    background-color: white;
+  }
+  .nav-box:hover img {
+    background-color: white;
+  }

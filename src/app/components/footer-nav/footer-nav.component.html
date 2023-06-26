@@ -1,1 +1,16 @@
-<p>footer-nav works!</p>
+<footer>
+ <div class="navigation">
+  <div class="nav-box" [class.active]="selectedNav === 'nav1'" (click)="selectNav('nav1')">
+   <img src="assets/biene.png" alt="biene" [ngClass]="{ 'selected': selectedNav === 'nav1' }">
+   <span>Lernthemen</span>
+  </div>
+  <div class="nav-box" [class.active]="selectedNav === 'nav2'" (click)="selectNav('nav2')">
+   <img src="assets/kompass.png" alt="kompass" [ngClass]="{ 'selected': selectedNav === 'nav2' }">
+   <span>Lerncoaching</span>
+  </div>
+  <div class="nav-box" [class.active]="selectedNav === 'nav3'" (click)="selectNav('nav3')">
+   <img src="assets/heart.png" alt="heart" [ngClass]="{ 'selected': selectedNav === 'nav3' }">
+   <span>Deine Erfolge</span>
+  </div>
+ </div>
+</footer>

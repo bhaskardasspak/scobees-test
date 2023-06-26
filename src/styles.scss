@@ -5,3 +5,39 @@ html, body { height: 100%; }
  box-sizing: border-box;
 }
 body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif;  }
+
+/* 
+************
+ COMMON FOLDER (GLOBAL STYLES FOR ANGULAR MATERIAL)
+************
+*/
+
+// CARD COMPONENT
+mat-progress-bar{
+ .mdc-linear-progress__bar-inner{
+  border-color:#1F838E;
+ }
+}
+
+
+/* 
+************
+ COMPONENT FOLDER (GLOBAL STYLES FOR ANGULAR MATERIAL)
+************
+*/
+
+// TABS COMPONENT
+.mat-mdc-tab-body-content{
+ background-color: white;
+ padding: 1.5rem 1rem;
+}
+
+mat-tab-group {
+  .mdc-tab{
+   background-color: #D7E4E0;
+   margin-right: 2px;
+  }
+   .mdc-tab--active{
+    background-color: white;
+   }
+ }

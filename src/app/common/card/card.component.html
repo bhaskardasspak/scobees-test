@@ -1,1 +1,17 @@
-<p>card works!</p>
+<mat-card class="example-card">
+ <mat-card-header>
+  <button mat-mini-fab class="avatar" aria-label="Example mini fab with a heart icon">
+   D
+  </button>
+  <!-- <div mat-card-avatar class="example-header-image"></div> -->
+  <div class="card-title-sub">
+   <mat-card-title>Deutsch</mat-card-title>
+   <mat-card-subtitle>25%</mat-card-subtitle>
+  </div>
+ </mat-card-header>
+ <mat-progress-bar mode="determinate" value="25"></mat-progress-bar>
+ <img mat-card-image src="assets/card-cover.png">
+ <mat-card-actions>
+  <button mat-raised-button color="primary" class="card-button">Anseichen</button>
+ </mat-card-actions>
+</mat-card>
